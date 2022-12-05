@@ -29,7 +29,7 @@ It is not mandatory to develop any kind of UI, but if it helps you feel free to 
 - Whenever a message from the topic is read, insert that movie into ElasticSearch
 
 
-###Resources
+### Resources
 https://www.docker.com/blog/how-to-dockerize-your-python-applications/
 https://flask.palletsprojects.com/en/2.2.x/quickstart/
 https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
