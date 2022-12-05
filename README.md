@@ -1,4 +1,4 @@
-#### Workshop Challenge
+## Workshop Challenge
 
 For the purpose of this challenge, you will be given the task of implementing an application to reassemble a much simpler version of IMDB.
 
@@ -11,19 +11,19 @@ It is not mandatory to develop any kind of UI, but if it helps you feel free to 
 - Flask (webserver);
 - Kafka *(bonus challenge)*
 
-###Tools
+### Tools
 - Docker;
 - VStudio or any other IDE;
 - Offset Explorer *(bonus challenge)*
 
-###Application Features
+### Application Features
 - You should have a web server configured and ready to respond to requests.
 - You should have your CRUD (**C**reate **R**ead **U**pdate **D**elete) for movies implemented.
 - The API should be using REST architectural style.
 - The technology you will be using for storing the information is ElasticSearch.
 - Preferably, the information to be stored in ElasticSearch should be done by using ElasticClient. If you have problems using this, feel free to use the normal API.
 
-##Bonus
+### Bonus
 - Using Kafka, create a Kafka Topic that will be used to storage messages which contain movie information.
 - You should have a python application listening to Topic.
 - Whenever a message from the topic is read, insert that movie into ElasticSearch
